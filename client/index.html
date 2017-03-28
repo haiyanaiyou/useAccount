@@ -1,0 +1,12 @@
+<template name="index">
+	<h1>首页</h1>
+	{{#if isLogin}}
+	<p>ID:{{user.id}}</p>
+	<p>Email:{{user.email}}</p>
+	<a href="" id="btn_logout">退出</a>
+	{{else}}
+	<a href="/login" >登录</a>
+
+	{{/if}}
+	
+</template>
