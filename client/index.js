@@ -12,6 +12,6 @@ Template.index.helpers({
 });
 Template.index.events({
 	"click #btn_logout":function(event,template){
-		AccountTemplates.logout();
+		AccountsTemplates.logout();
 	}
 });
